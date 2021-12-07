@@ -21,9 +21,9 @@ export default function App() {
           <Tab.Navigator>
             <Tab.Screen name="Home" component={Trending} options={{
               tabBarIcon: ({ focused, size, color }) => (<Ionicons name={focused ? 'home' : 'home-outline'} size={size} color={color} />)}} />
-            <Tab.Screen name="Find" component={Favorites}  options={{
+            <Tab.Screen name="Find" component={Search}  options={{
               tabBarIcon: ({ focused, size, color }) => (<Ionicons name={focused ? 'search' : 'search-outline'} size={size} color={color} />)}}/>
-            <Tab.Screen name="Favorites" component={Search}  options={{
+            <Tab.Screen name="Favorites" component={Favorites}  options={{
               tabBarIcon: ({ focused, size, color }) => (<Ionicons name={focused ? 'star' : 'star-outline'} size={size} color={color} />) }}/>
             <Tab.Screen name="Profile" component={Profile}  options={{
               tabBarIcon: ({ focused, size, color }) => (<Ionicons name={focused ? 'person' : 'person-outline'} size={size} color={color} />) }}/>
