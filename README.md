@@ -35,7 +35,7 @@ This project is licensed under the MIT License.
 
 ## Authors
 
-[Alessandro](https://github.com/alessandrohj)
+[Alessandro](https://github.com/alessandrohj) | 
 [Gyuyoung](https://github.com/lee00777)
 
 ## Acknowledgments
